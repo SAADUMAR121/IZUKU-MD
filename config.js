@@ -6,10 +6,10 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
+global.email = 'saadumar658@gmail.com'
 global.github = 'https://github.com/SAADUMAR121/IZUKU-MD'
 global.location = 'balochistan'
-global.gurl = 'https://instagram.com/' // add your username
+global.gurl = 'https://instagram.com/saadumar.650' // add your username
 global.sudo = process.env.SUDO || '923321709439,923321709439'
 global.devs = '923321709439';
 global.website = 'https://saadumar658.blogspot.com' //wa.me/+91000000000000
@@ -45,7 +45,7 @@ module.exports = {
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'IZUKU',
+  LANG: process.env.THEME|| 'MrBot',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
 };
 
